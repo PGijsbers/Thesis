@@ -34,11 +34,11 @@ def make_dataset(points = 1500, splits=[0.5, 0.2, 0.5, 0.8, 0.5], lower_class=[0
         dataset[split_point:end, 2] = upper_class[level]
     return dataset[:, :2],dataset[:,-1] 
 
-def plot_decision_surface(estimator, X, y, ax):
+def plot_decision_surface(estimator, X, y, ax, granularity=100j, with_contour=True):
     x_min, x_max = 0, 2
     y_min, y_max = -0.2, 4.2
 
-    XX, YY = numpy.mgrid[x_min:x_max:300j, y_min:y_max:300j]
+    XX, YY = numpy.mgrid[x_min:x_max:granularity, y_min:y_max:granularity]
     # decision function, proba or predict
 #     if hasattr(estimator, "decision_function"):
 #         Z = estimator.decision_function(numpy.c_[XX.ravel(), YY.ravel()])
@@ -48,11 +48,12 @@ def plot_decision_surface(estimator, X, y, ax):
 #     el
     if hasattr(estimator, "predict"):
         Z = estimator.predict(numpy.c_[XX.ravel(), YY.ravel()])
-        counter_kwargs = dict(levels=[0.5], linestyles=['-'], colors=['k'])
+        contour_kwargs = dict(levels=[0.5], linestyles=['-'], colors=['k'])
         colormesh_kwargs = dict(vmin=0, vmax=1)
 
     Z = Z.reshape(XX.shape)
-    ax.contour(XX, YY, Z, **counter_kwargs)
+    if with_contour:
+        ax.contour(XX, YY, Z, **contour_kwargs)
     ax.pcolormesh(XX, YY, Z, cmap=plt.cm.bwr, alpha=0.1, **colormesh_kwargs)
 
     ax.set_xlim(x_min, x_max)
@@ -88,7 +89,7 @@ def plot_svm_surface(gamma, X, y, ax, title="t", dual_coef=None):
     support_vectors = X[support_vector_indices]
     # plot the line, the points, and the nearest vectors to the plane
     #plt.figure(fignum, figsize=(5, 5))
-    ax.set_title(title)
+    ax.set_title(title, fontsize=30)
     ax.scatter(X[:, 0], X[:, 1], c=y, zorder=10, cmap=plt.cm.bwr, marker='.')
     if dual_coef is not None:
         ax.scatter(support_vectors[:, 0], support_vectors[:, 1], c=dual_coef[0, :],
@@ -101,11 +102,11 @@ def plot_svm_surface(gamma, X, y, ax, title="t", dual_coef=None):
 
 # Adapted from https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html#sphx-glr-auto-examples-tree-plot-iris-dtc-py
 
-def plot_estimator_surface(estimator, X, y, ax, title):
+def plot_estimator_surface(estimator, X, y, ax, title, granularity=100j, with_contour=True):
     # Parameters
     plot_colors = "br"
     plot_step = 0.02
-    ax.set_title(title)
+    ax.set_title(title, fontsize=30)
 
     # Plot the training points
     for i, color in zip(range(len(set(y))), plot_colors):
@@ -121,4 +122,5 @@ def plot_estimator_surface(estimator, X, y, ax, title):
         
     # Train
     clf = estimator.fit(X, y)
-    return plot_decision_surface(clf, X, y, ax)
+    plot_decision_surface(clf, X, y, ax, granularity, with_contour)
+    return clf
