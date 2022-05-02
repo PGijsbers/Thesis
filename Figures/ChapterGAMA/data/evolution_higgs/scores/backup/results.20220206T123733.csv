@@ -1,0 +1,6 @@
+id,task,framework,constraint,fold,type,result,metric,mode,version,params,app_version,utc,duration,training_duration,predict_duration,models_count,seed,info,acc,auc,balacc,logloss
+openml.org/t/360114,Higgs,GAMA,1h8c,1,binary,0.754356,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-06T12:35:53,3340.1,3267.2,0.0,50,858192375,,0.68773,0.754356,0.686682,0.583894
+openml.org/t/360114,Higgs,GAMA,1h8c,0,binary,0.772749,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-06T12:36:07,3353.8,3279.5,0.0,50,858192374,,0.69996,0.772749,0.699229,0.579
+openml.org/t/360114,Higgs,GAMA,1h8c,6,binary,0.772681,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-06T12:36:06,3352.9,3278.8,0.0,50,858192380,,0.69897,0.772681,0.697783,0.58453
+openml.org/t/360114,Higgs,GAMA,1h8c,7,binary,0.770571,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-06T12:36:13,3360.7,3286.4,0.0,50,858192381,,0.69833,0.770571,0.697346,0.573487
+openml.org/t/360114,Higgs,GAMA,1h8c,8,binary,0.773233,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-06T12:36:04,3351.6,3278.5,0.0,50,858192382,,0.70164,0.773233,0.700556,0.576132

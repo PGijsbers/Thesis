@@ -102,7 +102,7 @@ def plot_svm_surface(gamma, X, y, ax, title="t", dual_coef=None):
 
 # Adapted from https://scikit-learn.org/stable/auto_examples/tree/plot_iris_dtc.html#sphx-glr-auto-examples-tree-plot-iris-dtc-py
 
-def plot_estimator_surface(estimator, X, y, ax, title, granularity=100j, with_contour=True):
+def plot_estimator_surface(estimator, X, y, ax, title="t", granularity=100j, with_contour=True):
     # Parameters
     plot_colors = "br"
     plot_step = 0.02

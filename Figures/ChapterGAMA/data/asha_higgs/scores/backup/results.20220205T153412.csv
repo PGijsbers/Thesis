@@ -1,0 +1,10 @@
+id,task,framework,constraint,fold,type,result,metric,mode,version,params,app_version,utc,duration,training_duration,predict_duration,models_count,seed,info,acc,auc,balacc,logloss
+openml.org/t/360114,Higgs,GAMA,1h8c,2,binary,0.775794,auc,aws.docker,21.0.1.dev,,"dev [NA, NA, NA]",2022-02-05T15:31:47,3373.2,3298.4,0.5,12,1714499246,,0.56101,0.775794,0.533335,0.676763
+openml.org/t/360114,Higgs,GAMA,1h8c,0,binary,0.804934,auc,aws.docker,21.0.1.dev,,"dev [NA, NA, NA]",2022-02-05T15:31:52,3380.2,3305.6,0.3,11,1714499244,,0.72634,0.804934,0.724858,0.534806
+openml.org/t/360114,Higgs,GAMA,1h8c,1,binary,0.801732,auc,aws.docker,21.0.1.dev,,"dev [NA, NA, NA]",2022-02-05T15:32:16,3401.9,3324.7,0.6,12,1714499245,,0.72381,0.801732,0.721894,0.538824
+openml.org/t/360114,Higgs,GAMA,1h8c,3,binary,0.787501,auc,aws.docker,21.0.1.dev,,"dev [NA, NA, NA]",2022-02-05T15:32:06,3376.9,3301.1,0.2,10,1714499247,,0.71419,0.787501,0.712589,0.554026
+openml.org/t/360114,Higgs,GAMA,1h8c,4,binary,0.803803,auc,aws.docker,21.0.1.dev,,"dev [NA, NA, NA]",2022-02-05T15:32:33,3391.5,3317.3,0.3,10,1714499248,,0.72429,0.803803,0.722675,0.536131
+openml.org/t/360114,Higgs,GAMA,1h8c,5,binary,0.788964,auc,aws.docker,21.0.1.dev,,"dev [NA, NA, NA]",2022-02-05T15:32:33,3411.2,3337.2,0.1,11,1714499249,,0.71336,0.788964,0.711338,0.551758
+openml.org/t/360114,Higgs,GAMA,1h8c,6,binary,0.801414,auc,aws.docker,21.0.1.dev,,"dev [NA, NA, NA]",2022-02-05T15:32:31,3397.4,3324.4,0.2,10,1714499250,,0.72342,0.801414,0.721743,0.537963
+openml.org/t/360114,Higgs,GAMA,1h8c,7,binary,0.790417,auc,aws.docker,21.0.1.dev,,"dev [NA, NA, NA]",2022-02-05T15:32:25,3388.0,3315.4,0.2,11,1714499251,,0.71299,0.790417,0.711055,0.554988
+openml.org/t/360114,Higgs,GAMA,1h8c,9,binary,0.801279,auc,aws.docker,21.0.1.dev,,"dev [NA, NA, NA]",2022-02-05T15:32:53,3399.0,3323.9,0.2,8,1714499253,,0.72309,0.801279,0.721296,0.538173

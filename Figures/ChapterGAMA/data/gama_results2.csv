@@ -1,0 +1,91 @@
+id,task,framework,constraint,fold,type,result,metric,mode,version,params,app_version,utc,duration,training_duration,predict_duration,models_count,seed,info,acc,auc,balacc,logloss
+openml.org/t/211986,Diabetes130US,GAMA,4h8c_gp3,5,multiclass,,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:13:46,10826.2,,,,1265371072,NoResultError: ,,,,
+openml.org/t/360113,porto-seguro,GAMA,4h8c_gp3,5,binary,0.63053,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:49:27,13036.7,12977.8,0.3,50.0,61223804,,0.963525,0.63053,0.499983,0.152477
+openml.org/t/360113,porto-seguro,GAMA,4h8c_gp3,8,binary,0.624008,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:49:29,13029.5,12971.5,0.3,50.0,61223807,,0.963542,0.624008,0.5,0.152936
+openml.org/t/167120,numerai28_6,GAMA,4h8c_gp3,0,binary,0.521308,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:49:38,12966.0,12960.1,0.004,50.0,1716692158,,0.517753,0.521308,0.516781,0.692486
+openml.org/t/360113,porto-seguro,GAMA,4h8c_gp3,2,binary,0.621193,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:49:40,13053.4,12994.6,0.4,50.0,61223801,,0.963458,0.621193,0.500613,0.153406
+openml.org/t/167120,numerai28_6,GAMA,4h8c_gp3,2,binary,0.525867,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:49:44,12970.8,12965.1,0.01,50.0,1716692160,,0.519207,0.525867,0.517925,0.691913
+openml.org/t/167120,numerai28_6,GAMA,4h8c_gp3,3,binary,0.525877,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:49:47,12967.9,12961.7,0.005,50.0,1716692161,,0.517857,0.525877,0.516936,0.692164
+openml.org/t/360113,porto-seguro,GAMA,4h8c_gp3,1,binary,0.632883,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:49:50,13062.4,13003.7,0.4,50.0,61223800,,0.963576,0.632883,0.500683,0.152101
+openml.org/t/167120,numerai28_6,GAMA,4h8c_gp3,1,binary,0.537821,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:49:51,12966.3,12960.0,0.004,50.0,1716692159,,0.5299,0.537821,0.52903,0.691013
+openml.org/t/167120,numerai28_6,GAMA,4h8c_gp3,4,binary,0.534387,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:49:53,12968.7,12962.9,0.004,50.0,1716692162,,0.527097,0.534387,0.526204,0.691499
+openml.org/t/7593,covertype,GAMA,4h8c_gp3,9,multiclass,-0.0985662,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:49:55,13023.0,12964.9,2.0,50.0,1793316326,,0.968847,,0.9196,0.0985662
+openml.org/t/167120,numerai28_6,GAMA,4h8c_gp3,5,binary,0.523291,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:00,12968.0,12961.8,0.2,50.0,1716692163,,0.51765,0.523291,0.515942,0.692106
+openml.org/t/360113,porto-seguro,GAMA,4h8c_gp3,6,binary,0.637558,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:05,13070.6,13010.6,0.5,50.0,61223805,,0.963559,0.637558,0.5,0.152115
+openml.org/t/167120,numerai28_6,GAMA,4h8c_gp3,8,binary,0.531462,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:09,12966.2,12960.0,0.007,50.0,1716692166,,0.522529,0.531462,0.521519,0.691574
+openml.org/t/167120,numerai28_6,GAMA,4h8c_gp3,6,binary,0.532217,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:09,12970.9,12964.7,0.1,50.0,1716692164,,0.520037,0.532217,0.517624,0.692178
+openml.org/t/211986,Diabetes130US,GAMA,4h8c_gp3,3,multiclass,-0.853403,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:15,13016.3,12999.2,0.4,50.0,1265371070,,0.601159,,0.437719,0.853403
+openml.org/t/360113,porto-seguro,GAMA,4h8c_gp3,9,binary,0.641553,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:25,13072.4,13013.5,0.4,50.0,61223808,,0.963542,0.641553,0.500887,0.15184
+openml.org/t/360113,porto-seguro,GAMA,4h8c_gp3,0,binary,0.622247,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:25,13098.0,13037.2,1.7,50.0,61223799,,0.963543,0.622247,0.5,0.152937
+openml.org/t/211986,Diabetes130US,GAMA,4h8c_gp3,9,multiclass,-0.842661,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:28,13010.5,12994.1,0.3,50.0,1265371076,,0.614485,,0.445338,0.842661
+openml.org/t/360113,porto-seguro,GAMA,4h8c_gp3,7,binary,0.636475,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:28,13092.2,13034.2,0.4,50.0,61223806,,0.963559,0.636475,0.5,0.152119
+openml.org/t/167120,numerai28_6,GAMA,4h8c_gp3,9,binary,0.530545,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:30,12968.0,12961.6,0.2,50.0,1716692167,,0.521491,0.530545,0.519901,0.691551
+openml.org/t/211986,Diabetes130US,GAMA,4h8c_gp3,2,multiclass,-0.852719,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:37,13048.7,13032.1,0.3,50.0,1265371069,,0.603813,,0.440286,0.852719
+openml.org/t/360113,porto-seguro,GAMA,4h8c_gp3,3,binary,0.639926,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:37,13108.9,13050.5,0.4,50.0,61223802,,0.963542,0.639926,0.500213,0.151938
+openml.org/t/211986,Diabetes130US,GAMA,4h8c_gp3,0,multiclass,-0.847635,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:40,13059.9,13042.7,0.4,50.0,1265371067,,0.607645,,0.437177,0.847635
+openml.org/t/360113,porto-seguro,GAMA,4h8c_gp3,4,binary,0.643317,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:41,13113.7,13055.0,0.5,50.0,61223803,,0.963509,0.643317,0.500196,0.152182
+openml.org/t/211986,Diabetes130US,GAMA,4h8c_gp3,7,multiclass,-0.847743,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:43,13028.1,13010.9,0.3,50.0,1265371074,,0.606525,,0.436968,0.847743
+openml.org/t/359991,kick,GAMA,4h8c_gp3,1,binary,0.783751,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:53,12983.5,12974.8,0.2,50.0,1777626148,,0.901493,0.783751,0.614505,0.293084
+openml.org/t/211979,jannis,GAMA,4h8c_gp3,3,multiclass,-0.70153,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:50:54,13018.2,13006.6,0.09,50.0,880399081,,0.710498,,0.545999,0.70153
+openml.org/t/211986,Diabetes130US,GAMA,4h8c_gp3,1,multiclass,-0.836012,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:07,13084.1,13066.4,0.3,50.0,1265371068,,0.61806,,0.449717,0.836012
+openml.org/t/211979,jannis,GAMA,4h8c_gp3,7,multiclass,-0.717762,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:10,13012.2,13001.0,0.2,50.0,880399085,,0.711215,,0.527618,0.717762
+openml.org/t/168868,APSFailure,GAMA,4h8c_gp3,1,binary,0.988686,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:20,13003.3,12979.8,0.2,50.0,1083484809,,0.989868,0.988686,0.765552,0.0308113
+openml.org/t/359991,kick,GAMA,4h8c_gp3,6,binary,0.766938,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:24,12982.9,12974.0,0.2,50.0,1777626153,,0.904083,0.766938,0.617959,0.294932
+openml.org/t/360114,Higgs,GAMA,4h8c_gp3,2,binary,0.794905,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:25,13110.3,13031.9,2.5,50.0,1213430535,,0.71746,0.794905,0.712993,0.587383
+openml.org/t/211986,Diabetes130US,GAMA,4h8c_gp3,6,multiclass,-0.833637,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:26,13078.0,13059.9,0.3,50.0,1265371073,,0.616942,,0.450967,0.833637
+openml.org/t/211986,Diabetes130US,GAMA,4h8c_gp3,8,multiclass,-0.846225,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:27,13066.0,13048.7,0.5,50.0,1265371075,,0.611144,,0.443225,0.846225
+openml.org/t/359991,kick,GAMA,4h8c_gp3,8,binary,0.785658,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:30,12991.2,12982.5,0.2,50.0,1777626155,,0.903261,0.785658,0.618871,0.28981
+openml.org/t/211979,jannis,GAMA,4h8c_gp3,6,multiclass,-0.682716,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:35,13037.2,13025.8,0.2,50.0,880399084,,0.725546,,0.555009,0.682716
+openml.org/t/359991,kick,GAMA,4h8c_gp3,7,binary,0.780778,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:41,12995.8,12987.2,0.1,50.0,1777626154,,0.90285,0.780778,0.624859,0.290745
+openml.org/t/359991,kick,GAMA,4h8c_gp3,3,binary,0.765935,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:43,13018.4,13010.0,0.09,50.0,1777626150,,0.90011,0.765935,0.607066,0.298112
+openml.org/t/359991,kick,GAMA,4h8c_gp3,9,binary,0.778462,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:44,12993.0,12984.8,0.09,50.0,1777626156,,0.899973,0.778462,0.612209,0.294973
+openml.org/t/211979,jannis,GAMA,4h8c_gp3,9,multiclass,-0.718857,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:58,13046.2,13034.3,0.2,50.0,880399087,,0.706437,,0.520729,0.718857
+openml.org/t/7593,covertype,GAMA,4h8c_gp3,2,multiclass,-0.159984,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:51:58,13176.6,13118.5,1.7,50.0,1793316319,,0.956076,,0.900784,0.159984
+openml.org/t/211979,jannis,GAMA,4h8c_gp3,1,multiclass,-0.699625,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:05,13093.3,13081.8,0.2,50.0,880399079,,0.718653,,0.53095,0.699625
+openml.org/t/168868,APSFailure,GAMA,4h8c_gp3,9,binary,0.989997,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:06,13024.9,13002.1,0.2,50.0,1083484817,,0.991842,0.989997,0.803812,0.0277143
+openml.org/t/168868,APSFailure,GAMA,4h8c_gp3,2,binary,0.992554,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:07,13050.2,13027.8,0.1,50.0,1083484810,,0.993684,0.992554,0.853479,0.0231316
+openml.org/t/360114,Higgs,GAMA,4h8c_gp3,3,binary,0.797141,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:15,13162.8,13090.4,0.4,50.0,1213430536,,0.72136,0.797141,0.719634,0.548178
+openml.org/t/360114,Higgs,GAMA,4h8c_gp3,9,binary,0.805509,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:23,13168.6,13092.8,0.6,50.0,1213430542,,0.72727,0.805509,0.72527,0.535717
+openml.org/t/359991,kick,GAMA,4h8c_gp3,5,binary,0.784977,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:27,13059.6,13050.8,0.2,50.0,1777626152,,0.902028,0.784977,0.612473,0.290744
+openml.org/t/168868,APSFailure,GAMA,4h8c_gp3,7,binary,0.990468,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:35,13067.7,13045.0,0.1,50.0,1083484815,,0.992632,0.990468,0.821995,0.0270105
+openml.org/t/168868,APSFailure,GAMA,4h8c_gp3,4,binary,0.985998,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:35,13078.1,13056.1,0.05,50.0,1083484812,,0.991316,0.985998,0.766289,0.030034
+openml.org/t/359991,kick,GAMA,4h8c_gp3,0,binary,0.786956,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:45,13105.1,13096.8,0.09,50.0,1777626147,,0.903411,0.786956,0.624694,0.288549
+openml.org/t/168868,APSFailure,GAMA,4h8c_gp3,6,binary,0.993074,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:48,13079.8,13056.2,0.1,50.0,1083484814,,0.994079,0.993074,0.876075,0.0218578
+openml.org/t/359991,kick,GAMA,4h8c_gp3,4,binary,0.786052,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:53,13094.0,13085.4,0.2,50.0,1777626151,,0.905865,0.786052,0.626164,0.284114
+openml.org/t/211979,jannis,GAMA,4h8c_gp3,2,multiclass,-0.698101,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:53,13139.9,13128.1,0.2,50.0,880399080,,0.72128,,0.533837,0.698101
+openml.org/t/211979,jannis,GAMA,4h8c_gp3,4,multiclass,-0.701499,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:59,13135.9,13124.7,0.1,50.0,880399082,,0.714439,,0.533537,0.701499
+openml.org/t/7593,covertype,GAMA,4h8c_gp3,0,multiclass,-0.205074,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:52:59,13237.6,13180.4,1.7,50.0,1793316317,,0.941207,,0.875327,0.205074
+openml.org/t/211979,jannis,GAMA,4h8c_gp3,0,multiclass,-0.712367,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:53:00,13155.8,13144.1,0.3,50.0,880399078,,0.711727,,0.521223,0.712367
+openml.org/t/211986,Diabetes130US,GAMA,4h8c_gp3,4,multiclass,-0.83547,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:53:01,13179.9,13163.1,0.3,50.0,1265371071,,0.622973,,0.460326,0.83547
+openml.org/t/360114,Higgs,GAMA,4h8c_gp3,1,binary,0.811396,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:53:05,13211.3,13136.1,0.3,50.0,1213430534,,0.73104,0.811396,0.729468,0.527788
+openml.org/t/360114,Higgs,GAMA,4h8c_gp3,6,binary,0.815953,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:53:09,13215.7,13137.3,0.5,50.0,1213430539,,0.73513,0.815953,0.733786,0.521387
+openml.org/t/7593,covertype,GAMA,4h8c_gp3,5,multiclass,-0.201453,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:53:10,13244.3,13187.1,1.6,50.0,1793316322,,0.943822,,0.882792,0.201453
+openml.org/t/168868,APSFailure,GAMA,4h8c_gp3,0,binary,0.987332,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:53:33,13136.2,13113.6,0.03,50.0,1083484808,,0.994605,0.987332,0.882609,0.0194334
+openml.org/t/211979,jannis,GAMA,4h8c_gp3,8,multiclass,-0.71142,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:53:37,13147.5,13135.9,0.2,50.0,880399086,,0.722441,,0.531176,0.71142
+openml.org/t/360114,Higgs,GAMA,4h8c_gp3,0,binary,0.812267,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:53:40,13246.4,13164.4,2.8,50.0,1213430533,,0.73201,0.812267,0.731147,0.534099
+openml.org/t/360114,Higgs,GAMA,4h8c_gp3,7,binary,0.802944,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:53:47,13251.5,13176.3,0.4,50.0,1213430540,,0.72466,0.802944,0.722867,0.539346
+openml.org/t/168868,APSFailure,GAMA,4h8c_gp3,3,binary,0.98495,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:54:02,13165.8,13142.7,0.1,50.0,1083484811,,0.995263,0.98495,0.882944,0.0293849
+openml.org/t/360114,Higgs,GAMA,4h8c_gp3,5,binary,0.801927,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:54:28,13293.0,13211.8,3.1,50.0,1213430538,,0.72447,0.801927,0.722063,0.560539
+openml.org/t/359991,kick,GAMA,4h8c_gp3,2,binary,0.770999,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:54:32,13201.3,13192.8,0.2,50.0,1777626149,,0.901493,0.770999,0.614505,0.293245
+openml.org/t/211979,jannis,GAMA,4h8c_gp3,5,multiclass,-0.716051,neg_logloss,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:54:36,13218.4,13206.6,0.2,50.0,880399083,,0.719575,,0.529029,0.716051
+openml.org/t/168868,APSFailure,GAMA,4h8c_gp3,8,binary,0.987443,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T14:55:13,13217.4,13194.4,0.1,50.0,1083484816,,0.9925,0.987443,0.836152,0.0284052
+openml.org/t/167120,numerai28_6,GAMA,4h8c_gp3,7,binary,0.530041,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T15:49:28,12966.0,12960.0,0.005,50.0,1716692165,,0.521699,0.530041,0.520682,0.69152
+openml.org/t/168868,APSFailure,GAMA,4h8c_gp3,5,binary,0.992737,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T15:51:46,13101.4,13079.6,0.1,50.0,1083484813,,0.993158,0.992737,0.854268,0.0227862
+openml.org/t/360114,Higgs,GAMA,4h8c_gp3,8,binary,0.795494,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T15:55:25,13261.2,13181.7,3.1,50.0,1213430541,,0.71825,0.795494,0.714898,0.573932
+openml.org/t/360114,Higgs,GAMA,4h8c_gp3,4,binary,,auc,aws.docker,21.0.1.dev,,2.0.5,2022-02-10T16:14:09,18073.9,,,,1213430537,NoResultError: Interrupting thread MainThread [ident=140698192738112] after 18000s timeout.,,,,
+openml.org/t/189354,airlines,GAMA,4h8c_gp3,0,binary,0.720889,auc,aws,21.0.1.dev,,2.0.5,2022-02-11T14:13:48,13105.2,13092.6,0.2,50.0,1923789897,,0.667513,0.720889,0.650607,0.60717
+openml.org/t/189354,airlines,GAMA,4h8c_gp3,1,binary,,auc,aws,21.0.1.dev,,2.0.5,2022-02-11T15:35:35,18012.3,,,,1923789898,NoResultError: Interrupting thread MainThread [ident=140542172936000] after 18000s timeout.,,,,
+openml.org/t/189354,airlines,GAMA,4h8c_gp3,2,binary,0.721149,auc,aws,21.0.1.dev,,2.0.5,2022-02-11T17:12:31,13079.6,13063.3,1.7,50.0,1923789899,,0.669163,0.721149,0.657368,0.609134
+openml.org/t/7593,covertype,GAMA,4h8c_gp3,8,multiclass,-0.101844,neg_logloss,aws,21.0.1.dev,,2.0.5,2022-02-11T21:14:43,13028.5,12965.3,4.7,50.0,1851271314,,0.967316,,0.925815,0.101844
+openml.org/t/7593,covertype,GAMA,4h8c_gp3,6,multiclass,-0.173576,neg_logloss,aws,21.0.1.dev,,2.0.5,2022-02-11T21:16:43,13163.8,13106.4,1.8,50.0,1851271312,,0.952324,,0.907247,0.173576
+openml.org/t/189354,airlines,GAMA,4h8c_gp3,3,binary,,auc,aws,21.0.1.dev,,2.0.5,2022-02-11T22:35:52,18012.3,,,,1036403968,NoResultError: Interrupting thread MainThread [ident=140456812795712] after 18000s timeout.,,,,
+openml.org/t/189354,airlines,GAMA,4h8c_gp3,4,binary,,auc,aws,21.0.1.dev,,2.0.5,2022-02-11T22:35:52,18011.8,,,,1036403969,NoResultError: Interrupting thread MainThread [ident=139799219779392] after 18000s timeout.,,,,
+openml.org/t/189354,airlines,GAMA,4h8c_gp3,6,binary,,auc,aws,21.0.1.dev,,2.0.5,2022-02-11T22:35:53,18012.0,,,,1036403971,NoResultError: Interrupting thread MainThread [ident=139719772727104] after 18000s timeout.,,,,
+openml.org/t/189354,airlines,GAMA,4h8c_gp3,5,binary,,auc,aws,21.0.1.dev,,2.0.5,2022-02-11T22:35:57,18012.4,,,,1036403970,NoResultError: Interrupting thread MainThread [ident=139887478843200] after 18000s timeout.,,,,
+openml.org/t/189354,airlines,GAMA,4h8c_gp3,7,binary,,auc,aws,21.0.1.dev,,2.0.5,2022-02-11T22:36:04,18011.5,,,,1036403972,NoResultError: Interrupting thread MainThread [ident=139724865214272] after 18000s timeout.,,,,
+openml.org/t/189354,airlines,GAMA,4h8c_gp3,8,binary,,auc,aws,21.0.1.dev,,2.0.5,2022-02-11T22:36:05,18012.0,,,,1036403973,NoResultError: Interrupting thread MainThread [ident=140628922857280] after 18000s timeout.,,,,
+openml.org/t/189354,airlines,GAMA,4h8c_gp3,9,binary,,auc,aws,21.0.1.dev,,2.0.5,2022-02-11T22:36:05,18012.4,,,,1036403974,NoResultError: Interrupting thread MainThread [ident=139747857790784] after 18000s timeout.,,,,
+openml.org/t/7593,covertype,GAMA,4h8c_gp3,3,multiclass,,neg_logloss,aws,21.0.1.dev,,2.0.5,2022-02-11T22:38:04,18051.7,,,,1851271309,NoResultError: Interrupting thread MainThread [ident=140250685028160] after 18000s timeout.,,,,
+openml.org/t/7593,covertype,GAMA,4h8c_gp3,1,multiclass,,neg_logloss,aws,21.0.1.dev,,2.0.5,2022-02-11T22:38:07,18054.0,,,,1851271307,NoResultError: Interrupting thread MainThread [ident=139759526860608] after 18000s timeout.,,,,
+openml.org/t/7593,covertype,GAMA,4h8c_gp3,7,multiclass,,neg_logloss,aws,21.0.1.dev,,2.0.5,2022-02-11T22:38:19,18053.4,,,,1851271313,NoResultError: Interrupting thread MainThread [ident=139747607738176] after 18000s timeout.,,,,
+openml.org/t/7593,covertype,GAMA,4h8c_gp3,4,multiclass,,neg_logloss,aws,21.0.1.dev,,2.0.5,2022-02-11T22:38:25,18054.0,,,,1851271310,NoResultError: Interrupting thread MainThread [ident=140533934192448] after 18000s timeout.,,,,
