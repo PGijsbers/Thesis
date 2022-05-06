@@ -1,6 +1,28 @@
 # Thesis
 Supplementary materials and supporting files for my thesis "Systems for AutoML Research".
 
+## Figures
+The figures may be used in your own work. 
+Referencing my thesis is not required, but appreciated:
+
+```bibtex
+
+@phdthesis{7c354f2121b8446ebfa007072d1d08ea,
+title = "Systems for AutoML Research",
+author = "Pieter Gijsbers",
+note = "Proefschrift.",
+year = "2022",
+month = may,
+day = "19",
+language = "English",
+isbn = "978-90-386-5510-9",
+series = "SIKS Dissertation Series",
+publisher = "Eindhoven University of Technology",
+school = "Mathematics and Computer Science",
+}
+
+```
+
 ## URLs
 The thesis contains a number of URLs, which unfortunately might not be future proof.
 If any URLs become unavailable, I will update this table, if an entry is broken or out-of-date, please open an issue.
